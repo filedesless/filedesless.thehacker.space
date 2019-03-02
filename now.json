@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "alias": [
+    "filedesless.thehacker.space"
+  ],
+  "routes": [
+    { "src": "/(.*)", "status": 301, "headers": { "Location": "https://filedesless.dev/$1" }}
+  ]
+}
